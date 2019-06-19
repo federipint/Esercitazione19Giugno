@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="ISO-8859-1">
+	<title>newpost</title>
+	</head>
+	<body>
+
+		<form action="../nuovopost.html" method = "post">   <!-- doppio punto perchè il nostro form si trova nella cartella view, non nella cartella web content, dove si trova la servlet dopo essere stata compilata -->
+		 	<label for= "autore">Autore</label>
+		 	<input type = "text" name = "autore" id="autore"/>
+		 	<label for= "titolo">Titolo</label>
+		 	<input type = "text" name = "titolo" id="titolo"/>
+		 	<label for= "testo">Testo</label>
+		 	<textarea rows="4" cols="20" name = "testo" id = "testo"> </textarea>
+		 	<button type="submit"> Invia </button>
+		</form>
+
+
+
+
+	</body>
+</html>
